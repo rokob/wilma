@@ -13,8 +13,10 @@ content_types_provided(Req, State) ->
 
 get_html(Req, State) ->
   Id = new_random_id(),
+  Version = cowboy_req:binding(version, Req, 0),
   {ok, Body} = index_dtl:render([
-    {server, Id}
+    {server, Id},
+    {version, Version}
   ]),
   {Body, Req, State}.
 

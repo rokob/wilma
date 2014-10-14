@@ -48,6 +48,7 @@
   <div class="row all-the-parts">
     <div class="col-sm-2 page-parts sidebar">
       Sidebar content
+      <h1>Version {{ version }}</h1>
 <div class="tocify-wrapper">
       <div id="toc" class="tocify">
       <ul id="tocify-header0" class="tocify-header"><li class="tocify-item" data-unique="overview" style="cursor: pointer;"><a>Overview</a></li></ul><ul id="tocify-header1" class="tocify-header"><li class="tocify-item" data-unique="making-requests" style="cursor: pointer;"><a>Making Requests</a></li></ul><ul id="tocify-header2" class="tocify-header"><li class="tocify-item" data-unique="external-apis" style="cursor: pointer;"><a>External APIs</a></li></ul><ul id="tocify-header3" class="tocify-header"><li class="tocify-item" data-unique="authentication"><a>Authentication</a></li><ul class="tocify-subheader" data-tag="2" style="display: block;"><li class="tocify-item" data-unique="with-a-github-token" style="cursor: pointer;"><a>With a GitHub token</a></li><li class="tocify-item tocify-focus" data-unique="creating-a-temporary-github-token" style="cursor: pointer;"><a>Creating a temporary GitHub token</a></li><li class="tocify-item" data-unique="github-oauth-handshake" style="cursor: pointer;"><a>GitHub OAuth handshake</a></li></ul></ul><ul id="tocify-header4" class="tocify-header"><li class="tocify-item" data-unique="entities"><a>Entities</a></li><ul class="tocify-subheader" data-tag="2" style="display: none;"><li class="tocify-item" data-unique="accounts"><a>Accounts</a></li><li class="tocify-item" data-unique="annotations"><a>Annotations</a></li><li class="tocify-item" data-unique="branches"><a>Branches</a></li><li class="tocify-item" data-unique="broadcasts"><a>Broadcasts</a></li><li class="tocify-item" data-unique="builds" style="cursor: pointer;"><a>Builds</a></li><li class="tocify-item" data-unique="caches" style="cursor: pointer;"><a>Caches</a></li><li class="tocify-item" data-unique="commits"><a>Commits</a></li><li class="tocify-item" data-unique="hooks"><a>Hooks</a></li><li class="tocify-item" data-unique="jobs"><a>Jobs</a></li><li class="tocify-item" data-unique="logs" style="cursor: pointer;"><a>Logs</a></li><li class="tocify-item" data-unique="permissions"><a>Permissions</a></li><li class="tocify-item" data-unique="repository-keys"><a>Repository Keys</a></li><li class="tocify-item" data-unique="repositories"><a>Repositories</a></li><li class="tocify-item" data-unique="requests"><a>Requests</a></li><li class="tocify-item" data-unique="settings:-general" style="cursor: pointer;"><a>Settings: General</a></li><li class="tocify-item" data-unique="settings:-environment-variables" style="cursor: pointer;"><a>Settings: Environment Variables</a></li><li class="tocify-item" data-unique="settings:-ssh-key" style="cursor: pointer;"><a>Settings: SSH Key</a></li><li class="tocify-item" data-unique="users" style="cursor: pointer;"><a>Users</a></li></ul></ul><ul id="tocify-header5" class="tocify-header"><li class="tocify-item" data-unique="other-endpoints" style="cursor: pointer;"><a>Other Endpoints</a></li><ul class="tocify-subheader" data-tag="2" style="display: none;"><li class="tocify-item" data-unique="linting"><a>Linting</a></li></ul></ul><ul id="tocify-header6" class="tocify-header"><li class="tocify-item" data-unique="api-clients" style="cursor: pointer;"><a>API Clients</a></li><ul class="tocify-subheader" data-tag="2" style="display: none;"><li class="tocify-item" data-unique="official" style="cursor: pointer;"><a>Official</a></li><li class="tocify-item" data-unique="web-browsers" style="cursor: pointer;"><a>Web Browsers</a></li><li class="tocify-item" data-unique="third-party" style="cursor: pointer;"><a>Third Party</a></li></ul></ul></div>
@@ -59,12 +60,6 @@
           <li><a href="https://travis-ci.com">Travis CI for Private Projects</a></li>
         
       </ul>
-      <div class="toc-copyright">
-        © 2014 Travis CI GmbH<br>
-        Prinzessinnenstr. 20,<br>
-        10969 Berlin, Germany
-      </div>
-      
     </div>
     </div>
     <div class="col-sm-5 page-parts main-content">

@@ -40,7 +40,7 @@ web_routes() ->
 
 api_routes() ->
   [
-    {"/:version/", {version, fun is_version/1}, index_handler, []}
+    {"/:version", {version, fun is_version/1}, index_handler, []}
   ].
 
 is_version(Value) when is_binary(Value) ->
