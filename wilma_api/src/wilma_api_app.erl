@@ -35,12 +35,14 @@ dispatch() ->
 web_routes() ->
   [
     {"/assets/[...]", cowboy_static, {priv_dir, ?APPNAME, "static/assets"}},
-    {"/", index_handler, []}
+    {"/", index_handler, [web]}
   ].
 
 api_routes() ->
   [
-    {"/:version", {version, fun is_version/1}, index_handler, []}
+    {"/assets/[...]", cowboy_static, {priv_dir, ?APPNAME, "static/assets"}},
+    {"/:version", [{version, function, fun is_version/1}], index_handler, [api]},
+    {"/:version/auth", [{version, function, fun is_version/1}], auth_handler, []}
   ].
 
 is_version(Value) when is_binary(Value) ->
