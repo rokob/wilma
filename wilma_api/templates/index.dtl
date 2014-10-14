@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Wilma :: Home</title>
+  <link rel="stylesheet" type="text/css" href="assets/vendor/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="assets/css/app.css">
+</head>
+
+<body>
+  <div class="navbar navbar-default navbar-fixed-top" role="navigation">
+    <div class="container">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="#">Project name</a>
+      </div>
+      <div class="navbar-collapse collapse">
+        <ul class="nav navbar-nav">
+          <li class="active"><a href="#">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown <span class="caret"></span></a>
+            <ul class="dropdown-menu" role="menu">
+              <li><a href="#">Action</a></li>
+              <li><a href="#">Another action</a></li>
+              <li><a href="#">Something else here</a></li>
+              <li class="divider"></li>
+              <li class="dropdown-header">Nav header</li>
+              <li><a href="#">Separated link</a></li>
+              <li><a href="#">One more separated link</a></li>
+            </ul>
+          </li>
+        </ul>
+        <ul class="nav navbar-nav navbar-right">
+          <li><a href="../navbar/">Default</a></li>
+          <li><a href="../navbar-static-top/">Static top</a></li>
+          <li class="active"><a href="./">Fixed top</a></li>
+        </ul>
+      </div><!--/.nav-collapse -->
+    </div>
+  </div>
+  <div class="row all-the-parts">
+    <div class="col-sm-2 page-parts sidebar">
+      Sidebar content
+<div class="tocify-wrapper">
+      <div id="toc" class="tocify">
+      <ul id="tocify-header0" class="tocify-header"><li class="tocify-item" data-unique="overview" style="cursor: pointer;"><a>Overview</a></li></ul><ul id="tocify-header1" class="tocify-header"><li class="tocify-item" data-unique="making-requests" style="cursor: pointer;"><a>Making Requests</a></li></ul><ul id="tocify-header2" class="tocify-header"><li class="tocify-item" data-unique="external-apis" style="cursor: pointer;"><a>External APIs</a></li></ul><ul id="tocify-header3" class="tocify-header"><li class="tocify-item" data-unique="authentication"><a>Authentication</a></li><ul class="tocify-subheader" data-tag="2" style="display: block;"><li class="tocify-item" data-unique="with-a-github-token" style="cursor: pointer;"><a>With a GitHub token</a></li><li class="tocify-item tocify-focus" data-unique="creating-a-temporary-github-token" style="cursor: pointer;"><a>Creating a temporary GitHub token</a></li><li class="tocify-item" data-unique="github-oauth-handshake" style="cursor: pointer;"><a>GitHub OAuth handshake</a></li></ul></ul><ul id="tocify-header4" class="tocify-header"><li class="tocify-item" data-unique="entities"><a>Entities</a></li><ul class="tocify-subheader" data-tag="2" style="display: none;"><li class="tocify-item" data-unique="accounts"><a>Accounts</a></li><li class="tocify-item" data-unique="annotations"><a>Annotations</a></li><li class="tocify-item" data-unique="branches"><a>Branches</a></li><li class="tocify-item" data-unique="broadcasts"><a>Broadcasts</a></li><li class="tocify-item" data-unique="builds" style="cursor: pointer;"><a>Builds</a></li><li class="tocify-item" data-unique="caches" style="cursor: pointer;"><a>Caches</a></li><li class="tocify-item" data-unique="commits"><a>Commits</a></li><li class="tocify-item" data-unique="hooks"><a>Hooks</a></li><li class="tocify-item" data-unique="jobs"><a>Jobs</a></li><li class="tocify-item" data-unique="logs" style="cursor: pointer;"><a>Logs</a></li><li class="tocify-item" data-unique="permissions"><a>Permissions</a></li><li class="tocify-item" data-unique="repository-keys"><a>Repository Keys</a></li><li class="tocify-item" data-unique="repositories"><a>Repositories</a></li><li class="tocify-item" data-unique="requests"><a>Requests</a></li><li class="tocify-item" data-unique="settings:-general" style="cursor: pointer;"><a>Settings: General</a></li><li class="tocify-item" data-unique="settings:-environment-variables" style="cursor: pointer;"><a>Settings: Environment Variables</a></li><li class="tocify-item" data-unique="settings:-ssh-key" style="cursor: pointer;"><a>Settings: SSH Key</a></li><li class="tocify-item" data-unique="users" style="cursor: pointer;"><a>Users</a></li></ul></ul><ul id="tocify-header5" class="tocify-header"><li class="tocify-item" data-unique="other-endpoints" style="cursor: pointer;"><a>Other Endpoints</a></li><ul class="tocify-subheader" data-tag="2" style="display: none;"><li class="tocify-item" data-unique="linting"><a>Linting</a></li></ul></ul><ul id="tocify-header6" class="tocify-header"><li class="tocify-item" data-unique="api-clients" style="cursor: pointer;"><a>API Clients</a></li><ul class="tocify-subheader" data-tag="2" style="display: none;"><li class="tocify-item" data-unique="official" style="cursor: pointer;"><a>Official</a></li><li class="tocify-item" data-unique="web-browsers" style="cursor: pointer;"><a>Web Browsers</a></li><li class="tocify-item" data-unique="third-party" style="cursor: pointer;"><a>Third Party</a></li></ul></ul></div>
+      
+      <ul class="toc-footer">
+        
+          <li><a href="https://travis-ci.org">Travis CI for Open Source</a></li>
+        
+          <li><a href="https://travis-ci.com">Travis CI for Private Projects</a></li>
+        
+      </ul>
+      <div class="toc-copyright">
+        © 2014 Travis CI GmbH<br>
+        Prinzessinnenstr. 20,<br>
+        10969 Berlin, Germany
+      </div>
+      
+    </div>
+    </div>
+    <div class="col-sm-5 page-parts main-content">
+      <p>
+         Since Travis CI will not store the GitHub token handed to it for
+         authentication, it is possible to generate a temporary GitHub token
+        and remove it again after the authentication handshake.
+      </p>
+      <p>
+         Since Travis CI will not store the GitHub token handed to it for
+         authentication, it is possible to generate a temporary GitHub token
+        and remove it again after the authentication handshake.
+      </p>
+      <p>
+         Since Travis CI will not store the GitHub token handed to it for
+         authentication, it is possible to generate a temporary GitHub token
+        and remove it again after the authentication handshake.
+      </p>
+    </div>
+    <div class="col-sm-5 page-parts code-examples">
+      Code example content
+      <p>{{ server }}</p>
+<pre class="highlight http col-sm-9" style="display: block;"><span class="nf">POST</span> <span class="nn">/authorizations</span> <span class="k">HTTP</span><span class="o">/</span><span class="m">1.1</span>
+<span class="na">Host</span><span class="p">:</span> <span class="s">api.github.com</span>
+<span class="na">Content-Type</span><span class="p">:</span> <span class="s">application/json</span>
+<span class="na">Authorization</span><span class="p">:</span> <span class="s">Basic ...</span>
+
+<span class="p">{</span><span class="w">
+  </span><span class="s2">"scopes"</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="w">
+    </span><span class="s2">"read:org"</span><span class="p">,</span><span class="w"> </span><span class="s2">"user:email"</span><span class="p">,</span><span class="w"> </span><span class="s2">"repo_deployment"</span><span class="p">,</span><span class="w">
+    </span><span class="s2">"repo:status"</span><span class="p">,</span><span class="w"> </span><span class="s2">"write:repo_hook"</span><span class="w">
+  </span><span class="p">],</span><span class="w">
+  </span><span class="s2">"note"</span><span class="p">:</span><span class="w"> </span><span class="s2">"temporary token to auth against travis"</span><span class="w">
+</span><span class="p">}</span><span class="w">
+</span></pre>
+<pre class="highlight http col-sm-9" style="display: block;"><span class="nf">POST</span> <span class="nn">/authorizations</span> <span class="k">HTTP</span><span class="o">/</span><span class="m">1.1</span>
+<span class="na">Host</span><span class="p">:</span> <span class="s">api.github.com</span>
+<span class="na">Content-Type</span><span class="p">:</span> <span class="s">application/json</span>
+<span class="na">Authorization</span><span class="p">:</span> <span class="s">Basic ...</span>
+
+<span class="p">{</span><span class="w">
+  </span><span class="s2">"scopes"</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="w">
+    </span><span class="s2">"read:org"</span><span class="p">,</span><span class="w"> </span><span class="s2">"user:email"</span><span class="p">,</span><span class="w"> </span><span class="s2">"repo_deployment"</span><span class="p">,</span><span class="w">
+    </span><span class="s2">"repo:status"</span><span class="p">,</span><span class="w"> </span><span class="s2">"write:repo_hook"</span><span class="w">
+  </span><span class="p">],</span><span class="w">
+  </span><span class="s2">"note"</span><span class="p">:</span><span class="w"> </span><span class="s2">"temporary token to auth against travis"</span><span class="w">
+</span><span class="p">}</span><span class="w">
+</span></pre>
+    </div>
+  </div>
+
+  <script src="assets/vendor/js/jquery.min.js"></script>
+  <script src="assets/vendor/js/bootstrap.min.js"></script>
+  <script src="assets/js/app.js"></script>
+</body>
+</html>

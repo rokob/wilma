@@ -1,0 +1,31 @@
+html,body,.col-md-12,.row {
+  height: 100%;
+}
+
+.row {
+  display: table;
+}
+
+.all-the-parts {
+  margin-top: 50px;
+}
+
+.page-parts {
+  float: none;
+  display: table-cell;
+  vertical-align: top;
+  padding-top: 20px;
+}
+ 
+.sidebar {
+  background-color: #eee;
+}
+
+.main-content {
+  background-color: #ddd;
+}
+
+.code-examples {
+  color: #fff;
+  background-color: #111;
+}

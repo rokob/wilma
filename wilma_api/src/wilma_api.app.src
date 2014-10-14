@@ -1,0 +1,15 @@
+{application, wilma_api, [
+  {description, "The Wilma API"},
+  {vsn, "0.0.1"},
+  {modules, []},
+  {registered, [wilma_api_sup]},
+  {applications, [
+    kernel,
+    stdlib,
+    cowboy,
+    erlydtl,
+    jiffy
+  ]},
+  {mod, {wilma_api_app, []}},
+  {env, []}
+]}.
