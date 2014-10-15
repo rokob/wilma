@@ -63,6 +63,7 @@
     </div>
     </div>
     <div class="col-sm-5 page-parts main-content">
+      <h2> Flake: {{ flake }} </h2>
       <p>
          Since Travis CI will not store the GitHub token handed to it for
          authentication, it is possible to generate a temporary GitHub token

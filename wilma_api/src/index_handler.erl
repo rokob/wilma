@@ -16,7 +16,9 @@ content_types_provided(Req, State) ->
 
 get_html(Req, State) ->
   Id = new_random_id(),
-  Vars = [{server, Id}],
+  {ok, Flake} = application:get_env(wilma_api, flakey),
+  FlakeValue = proplists:get_value(a, Flake),
+  Vars = [{server, Id}, {flake, FlakeValue}],
   Vars2 = case State of
     web ->
       [{version, 1} | Vars];

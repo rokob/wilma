@@ -1,4 +1,7 @@
+*.swp
 */**/_rel
 */**/deps
 *.beam
 */**/ebin
+*/**/doc/*
+!*/**/doc/overview.edoc
